@@ -1,5 +1,3 @@
-import { render } from '@testing-library/react';
-import React from 'react';
 import './Statistics.module.css';
 import PropTypes from 'prop-types';
 
