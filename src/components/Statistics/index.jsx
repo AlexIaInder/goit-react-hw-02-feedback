@@ -17,6 +17,7 @@ const Statistics = ({ options, total = 0, positivePercentage = 0 }) => {
     </div>
   );
 };
+// Statistics
 
 Statistics.prototype = {
   total: PropTypes.number,
