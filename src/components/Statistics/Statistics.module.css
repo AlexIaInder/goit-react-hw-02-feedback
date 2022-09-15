@@ -1,9 +1,7 @@
 ul {
   list-style: none;
 }
-.title {
-  font-size: 80px;
-}
+
 .buttonsList {
   display: flex;
   gap: 30px;
