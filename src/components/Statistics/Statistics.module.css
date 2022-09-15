@@ -1,13 +1,3 @@
 ul {
   list-style: none;
 }
-
-.buttonsList {
-  display: flex;
-  gap: 30px;
-}
-.buttonsList button {
-  width: 100px;
-  height: 50px;
-  border-radius: 4px;
-}

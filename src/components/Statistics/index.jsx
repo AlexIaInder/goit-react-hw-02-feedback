@@ -2,6 +2,7 @@ import { render } from '@testing-library/react';
 import FeedbackOptions from 'components/FeedbackOptions';
 import React from 'react';
 import css from './Statistics.module.css';
+import PropTypes from 'prop-types';
 
 const Statistics = ({ options, total = 0, positivePercentage = 0 }) => {
   return (
@@ -20,4 +21,8 @@ const Statistics = ({ options, total = 0, positivePercentage = 0 }) => {
   );
 };
 
+Statistics.prototype = {
+  total: PropTypes.number,
+  positive: PropTypes.number,
+};
 export default Statistics;
