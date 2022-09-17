@@ -30,7 +30,7 @@ export class App extends Component {
 
   render() {
     const { good, neutral, bad } = this.state;
-    const hasNoStatistics = good === 0 && neutral === 0 && bad === 0;
+    const hasNoStatistics = good + neutral + bad === 0;
 
     return (
       <>
