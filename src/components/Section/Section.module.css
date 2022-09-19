@@ -1,7 +1,10 @@
 .section {
-  display: flex;
   flex-direction: column;
+  display: flex;
+  justify-content: center;
   align-items: center;
+  font-size: 40;
+  color: black;
 }
 
 .title {
